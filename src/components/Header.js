@@ -36,24 +36,24 @@ const Header = () => {
       </Link>
       <ul className="header-links">
         <li>
-          <Link to="/world">World</Link>
+          <Link to="/science">Science</Link>
         </li>
         <li>
-          <Link to="/science">Science</Link>
+          <Link to="/world">World</Link>
         </li>
       </ul>
       <section
         className={`side-nav ${sidebarVisible ? "visble" : "hidden"}`}
         onMouseLeave={event => toggleSidebar()}
       >
-        {/* <ul className="sidenav-links">
+        <ul className="sidenav-links">
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/science">Science</Link>
           </li>
           <li>
-            <Link to="/dashboard">Dashboard</Link>
+            <Link to="/world">World</Link>
           </li>
-        </ul> */}
+        </ul>
       </section>
     </header>
   );

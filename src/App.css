@@ -20,4 +20,6 @@
 .news-display {
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
+  align-items: center;
 }

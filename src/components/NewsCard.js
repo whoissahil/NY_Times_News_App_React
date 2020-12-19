@@ -9,6 +9,8 @@ import axios from "axios";
 
 const NewsCard = ({ article }) => {
 
+  // console.log(article.multimedia);
+
   // const getArticleComments = source => {
   //   axios
   //     .get(
@@ -39,10 +41,11 @@ const NewsCard = ({ article }) => {
     setIsOpen(false);
   };
 
+  // console.log(article);
+
   return (
     <article className="news-card" key={article.title}>
       <div className="img-container">
-        <a href={article.url}>
           <img
             className="test-img"
             alt={article.title}
@@ -52,7 +55,6 @@ const NewsCard = ({ article }) => {
                 : "https://via.placeholder.com/440x293?text=No+Image+Provided"
             }
           />
-        </a>
       </div>
         <h2>{article.title}</h2>
       <p>{article.abstract}</p>
