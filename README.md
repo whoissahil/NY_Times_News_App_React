@@ -1,6 +1,6 @@
 # Getting Started with NY Times React App
 
-## Installatioin
+## Installation
 
 * git clone https://github.com/whoissahil/NY_Times_News_App_React.git
 * cd NY_Times_News_App_React
